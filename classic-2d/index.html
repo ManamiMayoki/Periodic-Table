@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table | Classic 2D Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Periodic Table <span class="accent-text">2D</span></h1>
+        <p>A classic 2D representation of the periodic table of elements.</p>
+
+        <!-- Filter Controls Container -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Elements</button>
+            <button class="filter-btn" data-filter="nonmetal">Nonmetals</button>
+            <button class="filter-btn" data-filter="alkali-metal">Alkali Metals</button>
+            <button class="filter-btn" data-filter="noble-gas">Noble Gases</button>
+        </div>
+    </header>
+
+    <main class="table-wrapper">
+
+        <!-- The main container where JavaScript will place the elements -->
+        <div id="periodic-table" class="periodic-grid"></div>
+    </main>
+
+    <!-- Overlay Modal for Detailed Inspector View -->
+     <div></div>
+
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
