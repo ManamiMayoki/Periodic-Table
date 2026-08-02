@@ -27,7 +27,18 @@
     </main>
 
     <!-- Overlay Modal for Detailed Inspector View -->
-     <div></div>
+     <div id="element-model" class="model-backdrop hidden">
+        <div class="model-content">
+            <button id="close-model" class="close-btn">&times;</button>
+            <div class="model-body">
+                <div class="model-hero">
+                    <span id="model-number" class="elem-number"></span>
+                    <h2 id="model-symbol" class="elem-symbol"></h2>
+                    <p id=""></p>
+                </div>
+            </div>
+        </div>
+     </div>
 
 
     <script type="module" src="js/app.js"></script>
